@@ -68,7 +68,12 @@ html,body {
 
 .caixa2 a{
     text-decoration: none;
-    color:#ffff
+    color:#ffff;
+    transition: background-color 0.3s ease;
+}
+
+.caixa2 a:hover {
+    background-color: #562880;
 }
 
 .caixa2 img{
@@ -193,6 +198,34 @@ html,body {
     width: 800px;
     height: 450px;
 }
+
+.comentarios {
+    width: 100%;
+    padding: 0 80px 120px 80px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.comentarios h3 {
+    font-size: 36px;
+    color: #3c184e;
+    margin-bottom: 45px;
+}
+
+.comentario {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    font-size: 18px;
+    color: #3c184e;
+}
+
+.comentario span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
+    font-style: italic;
+}
+
 
 .rodape{
     width: 100%;
