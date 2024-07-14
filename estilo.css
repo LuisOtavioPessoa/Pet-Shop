@@ -239,84 +239,57 @@ html,body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.formulario {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    position: relative; 
+.agenda {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
 }
 
-.formulario h3 {
-    font-size: 36px;
-    color: #3c184e; 
-    text-align: center;
+.agenda h3 {
+    font-size: 32px;
+    color: #3c184e;
     margin-bottom: 30px;
 }
 
-.formulario form {
-    display: grid;
-    gap: 20px;
+.agenda form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.formulario .campo {
-    display: grid;
-    gap: 10px;
-}
-
-.formulario label {
+.agenda label {
     font-size: 18px;
     color: #3c184e;
+    text-align: left;
 }
 
-.formulario input[type="text"],
-.formulario input[type="email"],
-.formulario textarea {
-    width: 100%;
+.agenda input, .agenda select, .agenda button {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.formulario textarea {
-    resize: vertical;
-}
-
-.formulario button {
     width: 100%;
-    padding: 12px;
-    background-color: #3c184e; 
+}
+
+.agenda button {
+    background-color: #3c184e;
     color: #fff;
-    font-size: 16px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
 }
 
-.formulario button:hover {
-    background-color: #5e2b77;
+.agenda button:hover {
+    background-color: #4e2a6e;
 }
 
-.mensagem-enviado {
-    position: absolute;
-    bottom: -50px; 
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #5e2b77; 
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    opacity: 0;
-    transition: opacity 0.3s ease, bottom 0.3s ease;
-}
-
-.mensagem-enviado.mostrar {
-    bottom: 20px;
-    opacity: 1;
+.mensagem-sucesso {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #28a745;
 }
 
 

@@ -103,26 +103,58 @@
     
 </div>
 
-<div class="formulario">
-    <h3>Entre em contato conosco</h3>
-    <form id="form-contato" action="#" method="POST">
-        <div class="campo">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-        </div>
-        <div class="campo">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div class="campo">
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-        </div>
-        <button type="submit">Enviar</button>
+<div class="agenda">
+    <h3>Agende um horário para seu Pet</h3>
+    <form class="formulario-agendamento">
+        
+        <label for="nome">Nome do Dono:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"  required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required >
+
+        <label for="nome-pet">Nome do Pet:</label>
+        <input type="text" id="nome-pet" name="nome-pet" required>
+
+        <label for="servico">Serviço</label>
+            <select name="servico" id="servico" required >
+                <option value="banho-tosa">Banho & Tosa</option>
+                <option value="veterinario">Veterinário 24h</option>
+                <option value="dog-walker">Dog Walker</option>
+                <option value="creche-pet">Creche Pet</option>
+            </select>
+
+        <label for="dia">Dia da Semana:</label>
+            <select name="dia" id="dia" required>
+                <option value="segunda">Segunda-feira</option>
+                <option value="terca">Terca-feira</option>
+                <option value="quarta">Quarta-feira</option>
+                <option value="quinta">Quinta-feira</option>
+                <option value="sexta">Sexta-feira</option>
+                <option value="sabado">Sábado</option>
+                <option value="domingo">Domingo</option>
+            </select>
+    
+        <label for="hora">Horário:</label>
+            <select name="hora" id="hora" required>
+                <option value="8:00">8:00</option>
+                <option value="9:00">9:00</option>
+                <option value="10:00">10:00</option>
+                <option value="11:00">11:00</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+            </select>
+
+        <button type="submit">Agendar</button>
     </form>
-    <div id="mensagem-enviado" class="mensagem-enviado">
-        Obrigado pelo seu feedback! Entraremos em contato em breve.
-    </div>
+    <div id="mensagem-sucesso" class="mensagem-sucesso"></div>
 </div>
 
 <div class="rodape">
