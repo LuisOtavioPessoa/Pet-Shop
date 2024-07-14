@@ -11,6 +11,7 @@ seus animais de estimaçao.
 - **Página Inicial**: Uma apresentação elegante da Pet Boutique com uma visão geral dos serviços oferecidos.
 - **Serviços**: Uma seção detalhada descrevendo os principais serviços disponíveis, como Banho & Tosa, Veterinário 24h, Dog Walker e Creche Pet.
 - **Marcas**: Exposição das principais marcas de produtos utilizados pela Pet Boutique.
+- **Localização**: Integração com o Google Maps para mostrar a localização do pet-shop.
 - **Comentários**: Depoimentos de clientes satisfeitos destacando a qualidade dos serviços prestados.
 - **Agendamento**: Um formulário interativo que permite aos usuários agendar serviços para seus pets, com opções de data e horário diferenciadas para fins de semana.
 
