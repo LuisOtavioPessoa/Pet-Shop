@@ -1,6 +1,6 @@
 ## Sobre o Projeto
 Desenvolvi um website fictício de um Pet-Shop. Que nele os usuários possam ter uma experiência amigável  e informativa, facilitando a busca de serviços e cuidados de qualidadade para
-seus animais de estimaçao.
+seus animais de estimação.
 
 ## Tecnologias Utilizadas
 - **HTML**: Estruturação do conteúdo do site.
