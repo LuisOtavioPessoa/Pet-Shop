@@ -8,7 +8,7 @@ seus animais de estimaçao.
 - **Javascript**:  Funcionalidades interativas e manipulação do DOM.
 
 ## Funcionalidades
-- **Home Page**: Uma apresentação elegante da Pet Boutique com uma visão geral dos serviços oferecidos.
+- **Página Inicial**: Uma apresentação elegante da Pet Boutique com uma visão geral dos serviços oferecidos.
 - **Serviços**: Uma seção detalhada descrevendo os principais serviços disponíveis, como Banho & Tosa, Veterinário 24h, Dog Walker e Creche Pet.
 - **Marcas**: Exposição das principais marcas de produtos utilizados pela Pet Boutique.
 - **Comentários**: Depoimentos de clientes satisfeitos destacando a qualidade dos serviços prestados.
