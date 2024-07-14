@@ -13,4 +13,4 @@ seus animais de estimaçao.
 - **Marcas**: Exposição das principais marcas de produtos utilizados pela Pet Boutique.
 - **Comentários**: Depoimentos de clientes satisfeitos destacando a qualidade dos serviços prestados.
 - **Agendamento**: Um formulário interativo que permite aos usuários agendar serviços para seus pets, com opções de data e horário diferenciadas para fins de semana.
-- **Contato**: Informações de contato e um formulário para os clientes enviarem suas mensagens e feedbacks.
+
