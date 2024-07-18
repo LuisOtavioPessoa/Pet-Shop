@@ -10,6 +10,41 @@ html,body {
     height: 100%;
 }
 
+.navbar .navbar-nav .nav-link {
+    font-size: 1.1rem; 
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar {
+    height: 70px; 
+    padding: 5px 20px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */   
+}
+
+.navbar.bg-body-tertiary {
+    background-color: #3c184e; 
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+    color: #f8f9fa; 
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
 .topo{
     width: 100%;
     padding: 120px 80px;
