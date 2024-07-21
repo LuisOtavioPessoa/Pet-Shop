@@ -23,7 +23,7 @@ html,body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */   
+    z-index: 1000; 
 }
 
 .navbar.bg-body-tertiary {
@@ -327,7 +327,6 @@ html,body {
     color: #28a745;
 }
 
-
 .rodape{
     width: 100%;
     padding: 10px 0;
@@ -343,3 +342,189 @@ html,body {
     text-align: center;
 }
 
+/* Media Queries para Responsividade */
+
+
+@media screen and (max-width: 1024px) {
+    .topo {
+        padding: 80px 20px;
+    }
+
+    .caixa2 {
+        padding: 30px;
+    }
+
+    .caixa2 h1 {
+        font-size: 40px;
+    }
+
+    .caixa2 p {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .servicos {
+        padding: 80px 20px;
+    }
+
+    .servicos h3 {
+        font-size: 30px;
+    }
+
+    .servicos-lista li {
+        font-size: 18px;
+    }
+
+    .onde-estamos iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar .navbar-nav .nav-link {
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+
+    .topo {
+        padding: 60px 10px;
+    }
+
+    .caixa1{
+        padding: 12px;
+    }
+    .caixa1 .p1{
+        font-size: 32px ;
+    }
+
+    .caixa2 {
+        padding: 20px;
+    }
+
+    .caixa2 h1 {
+        font-size: 30px;
+    }
+
+    .caixa2 p {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .servicos {
+        padding: 60px 10px;
+    }
+
+    .servicos h3 {
+        font-size: 28px;
+    }
+
+    .servicos-lista li {
+        font-size: 16px;
+    }
+
+    .marcas {
+        padding: 60px 10px;
+    }
+
+    .marcas h3 {
+        font-size: 28px;
+    }
+
+    .onde-estamos {
+        padding: 60px 10px;
+    }
+
+    .onde-estamos iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .comentario {
+        max-width: 90%;
+    }
+
+    .agenda form {
+        padding: 10px;
+    }
+
+    .agenda button {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .navbar .navbar-nav .nav-link {
+        font-size: 0.9rem;
+        margin-right: 5px;
+    }
+
+    .topo {
+        padding: 40px 5px;
+    }
+
+    .caixa1{
+        padding: 32px;
+    }
+    
+    .caixa1 .p1{
+        font-size: 26px ;
+    }
+
+    .caixa2 {
+        padding: 15px;
+    }
+
+    .caixa2 h1 {
+        font-size: 24px;
+    }
+
+    .caixa2 p {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .servicos {
+        padding: 40px 5px;
+    }
+
+    .servicos h3 {
+        font-size: 24px;
+    }
+
+    .servicos-lista li {
+        font-size: 14px;
+    }
+
+    .marcas {
+        padding: 40px 5px;
+    }
+
+    .marcas h3 {
+        font-size: 24px;
+    }
+
+    .onde-estamos {
+        padding: 40px 5px;
+    }
+
+    .onde-estamos iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .comentario {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .agenda form {
+        padding: 5px;
+    }
+
+    .agenda button {
+        font-size: 12px;
+    }
+}
